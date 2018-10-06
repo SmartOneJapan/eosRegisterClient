@@ -1,0 +1,7 @@
+export const setAccountName = ({commit}, accountName) => commit('setAccountName',accountName)
+export const setEmail = ({commit}, email) => commit('setEmail',email)
+export const setOwnerPublicKey = ({commit}, ownerPublicKey) => commit('setOwnerPublicKey',ownerPublicKey)
+export const setOwnerPrivateKey = ({commit}, ownerPrivateKey) => commit('setOwnerPrivateKey',ownerPrivateKey)
+export const setActivePublicKey = ({commit}, activePublicKey) => commit('setActivePublicKey',activePublicKey)
+export const setActivePrivateKey = ({commit}, activePrivateKey) => commit('setActivePrivateKey',activePrivateKey)
+export const setPaymentType = ({commit}, paymentType) => commit('setPaymentType',paymentType)
